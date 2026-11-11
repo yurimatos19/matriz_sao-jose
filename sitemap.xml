@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  <url><loc>https://matrizdesaojose.com.br/</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://matrizdesaojose.com.br/a-matriz/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://matrizsao-jose.vercel.app/</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://matrizsao-jose.vercel.app/a-matriz/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url>
-    <loc>https://matrizdesaojose.com.br/sao-jose/</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority>
+    <loc>https://matrizsao-jose.vercel.app/sao-jose/</loc><lastmod>2026-11-10</lastmod><changefreq>yearly</changefreq><priority>0.8</priority>
     <video:video>
-      <video:thumbnail_loc>https://matrizdesaojose.com.br/assets/video/sao-jose-filme.jpg</video:thumbnail_loc>
+      <video:thumbnail_loc>https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.jpg</video:thumbnail_loc>
       <video:title>Quem foi São José — animação</video:title>
       <video:description>A vida de São José contada em pintura a óleo animada: o carpinteiro de Nazaré, os sonhos, Belém, a fuga para o Egito e Nazaré.</video:description>
-      <video:content_loc>https://matrizdesaojose.com.br/assets/video/sao-jose-filme.mp4</video:content_loc>
+      <video:content_loc>https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.mp4</video:content_loc>
     </video:video>
   </url>
-  <url><loc>https://matrizdesaojose.com.br/llms.txt</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://matrizsao-jose.vercel.app/llms.txt</loc><lastmod>2026-11-10</lastmod></url>
 </urlset>

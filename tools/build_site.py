@@ -5,7 +5,7 @@ import json, os, html, datetime, urllib.parse, re
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import hashlib
 VER = hashlib.md5((open(os.path.join(R,'assets/css/site.css'),'rb').read() + open(os.path.join(R,'assets/js/site.js'),'rb').read())).hexdigest()[:8]  # quebra o cache a cada mudança
-SITE = 'https://matrizdesaojose.com.br'
+SITE = 'https://matrizsao-jose.vercel.app'
 ASAAS = 'https://www.asaas.com/c/fw001yxxge7pea3w'  # link de pagamento da paróquia (dízimo mensal no cartão)
 # ESPAÇOS RESERVADOS: cole o link entre as aspas e rode este script. Vazio = o site se vira sem ele.
 DOACAO = ''       # link de doação avulsa (Pix) no Asaas. Vazio: "doar agora" abre o WhatsApp da secretaria
@@ -226,7 +226,7 @@ for hhmm in ('0800', '1100', '1730'):
            'BEGIN:VEVENT', f'UID:missa-domingo-{hhmm}@matrizdesaojose.com.br', 'DTSTAMP:20261111T000000Z',
            f'DTSTART;TZID=America/Recife:20261115T{hhmm}00', 'DURATION:PT1H', 'RRULE:FREQ=WEEKLY;BYDAY=SU',
            'SUMMARY:Missa na Matriz de São José', 'LOCATION:Matriz de São José\\, Rua Vidal de Negreiros\\, 377\\, São José\\, Recife - PE',
-           'DESCRIPTION:Chegue 10 minutos antes: a missa costuma lotar. https://matrizdesaojose.com.br',
+           'DESCRIPTION:Chegue 10 minutos antes: a missa costuma lotar. https://matrizsao-jose.vercel.app',
            'BEGIN:VALARM', 'TRIGGER:-PT1H', 'ACTION:DISPLAY', 'DESCRIPTION:Missa na Matriz de São José em 1 hora', 'END:VALARM',
            'END:VEVENT', 'END:VCALENDAR']
     open(os.path.join(R, f'assets/agenda/missa-domingo-{hhmm}.ics'), 'w', newline='').write('\r\n'.join(ics) + '\r\n')

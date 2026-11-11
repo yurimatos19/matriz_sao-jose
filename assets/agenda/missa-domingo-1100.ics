@@ -20,7 +20,7 @@ DURATION:PT1H
 RRULE:FREQ=WEEKLY;BYDAY=SU
 SUMMARY:Missa na Matriz de São José
 LOCATION:Matriz de São José\, Rua Vidal de Negreiros\, 377\, São José\, Recife - PE
-DESCRIPTION:Chegue 10 minutos antes: a missa costuma lotar. https://matrizdesaojose.com.br
+DESCRIPTION:Chegue 10 minutos antes: a missa costuma lotar. https://matrizsao-jose.vercel.app
 BEGIN:VALARM
 TRIGGER:-PT1H
 ACTION:DISPLAY

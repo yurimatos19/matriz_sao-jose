@@ -19,4 +19,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://matrizdesaojose.com.br/sitemap.xml
+Sitemap: https://matrizsao-jose.vercel.app/sitemap.xml

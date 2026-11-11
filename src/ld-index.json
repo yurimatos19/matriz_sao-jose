@@ -6,18 +6,18 @@
     "CatholicChurch",
     "Organization"
    ],
-   "@id": "https://matrizdesaojose.com.br/#paroquia",
+   "@id": "https://matrizsao-jose.vercel.app/#paroquia",
    "name": "Matriz de São José — Paróquia de São José",
    "alternateName": [
     "Paróquia de São José do Recife",
     "Igreja Matriz de São José",
     "Matriz de São José do Recife"
    ],
-   "url": "https://matrizdesaojose.com.br/",
-   "logo": "https://matrizdesaojose.com.br/assets/img/icon-512.png",
+   "url": "https://matrizsao-jose.vercel.app/",
+   "logo": "https://matrizsao-jose.vercel.app/assets/img/icon-512.png",
    "image": [
-    "https://matrizdesaojose.com.br/assets/img/og-matriz-sao-jose.jpg",
-    "https://matrizdesaojose.com.br/assets/img/nave-central.jpg"
+    "https://matrizsao-jose.vercel.app/assets/img/og-matriz-sao-jose.jpg",
+    "https://matrizsao-jose.vercel.app/assets/img/nave-central.jpg"
    ],
    "description": "Paróquia católica dedicada a São José, no bairro de São José, centro do Recife (PE). Paróquia desde 1844.",
    "foundingDate": "1844",
@@ -81,18 +81,18 @@
     "name": "Seja um dizimista",
     "target": "https://www.asaas.com/c/fw001yxxge7pea3w",
     "recipient": {
-     "@id": "https://matrizdesaojose.com.br/#paroquia"
+     "@id": "https://matrizsao-jose.vercel.app/#paroquia"
     }
    }
   },
   {
    "@type": "WebSite",
-   "@id": "https://matrizdesaojose.com.br/#site",
-   "url": "https://matrizdesaojose.com.br/",
+   "@id": "https://matrizsao-jose.vercel.app/#site",
+   "url": "https://matrizsao-jose.vercel.app/",
    "name": "Matriz de São José",
    "inLanguage": "pt-BR",
    "publisher": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    }
   },
   {
@@ -107,10 +107,10 @@
    },
    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
    "location": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    },
    "organizer": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    },
    "description": "Missas aos domingos às 8h, 11h e 17h30."
   },
@@ -118,13 +118,13 @@
    "@type": "VideoObject",
    "name": "Quem foi São José — animação",
    "description": "Animação em pintura a óleo que conta a vida de São José, padroeiro da Matriz de São José do Recife.",
-   "thumbnailUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.jpg",
-   "contentUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.mp4",
+   "thumbnailUrl": "https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.jpg",
+   "contentUrl": "https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.mp4",
    "uploadDate": "2026-11-10",
    "duration": "PT1M7S",
    "inLanguage": "pt-BR",
    "publisher": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    }
   }
  ]

@@ -4,7 +4,7 @@
   {
    "@type": "WebPage",
    "name": "Quem foi São José",
-   "url": "https://matrizdesaojose.com.br/sao-jose/",
+   "url": "https://matrizsao-jose.vercel.app/sao-jose/",
    "inLanguage": "pt-BR",
    "about": {
     "@type": "Person",
@@ -16,7 +16,7 @@
     "description": "Esposo da Virgem Maria e pai adotivo de Jesus, carpinteiro de Nazaré, padroeiro da Igreja universal."
    },
    "publisher": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    }
   },
   {
@@ -26,13 +26,13 @@
      "@type": "ListItem",
      "position": 1,
      "name": "Início",
-     "item": "https://matrizdesaojose.com.br/"
+     "item": "https://matrizsao-jose.vercel.app/"
     },
     {
      "@type": "ListItem",
      "position": 2,
      "name": "São José",
-     "item": "https://matrizdesaojose.com.br/sao-jose/"
+     "item": "https://matrizsao-jose.vercel.app/sao-jose/"
     }
    ]
   },
@@ -40,12 +40,12 @@
    "@type": "VideoObject",
    "name": "Quem foi São José — animação",
    "description": "Animação em pintura a óleo que conta a vida de São José: o carpinteiro de Nazaré, os sonhos, Belém, a fuga para o Egito e Nazaré.",
-   "thumbnailUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.jpg",
-   "contentUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.mp4",
+   "thumbnailUrl": "https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.jpg",
+   "contentUrl": "https://matrizsao-jose.vercel.app/assets/video/sao-jose-filme.mp4",
    "uploadDate": "2026-11-10",
    "inLanguage": "pt-BR",
    "publisher": {
-    "@id": "https://matrizdesaojose.com.br/#paroquia"
+    "@id": "https://matrizsao-jose.vercel.app/#paroquia"
    }
   },
   {

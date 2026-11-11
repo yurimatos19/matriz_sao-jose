@@ -42,6 +42,14 @@ Depois de preencher, rode `python3 tools/build_site.py`.
 - **Lembrete da missa de domingo:** `assets/agenda/missa-domingo-*.ics` (8h, 11h, 17h30), gerados pelo `build_site.py`. Se os horários mudarem, ajuste lá.
 - **Como chegar:** Waze, Google Maps, Mapas da Apple e Uber usam as coordenadas `LAT, LON` do `build_site.py`. A 99 não tem link direto confiável; por isso há o botão "Copiar o endereço".
 
+## Domínio provisório
+
+Por enquanto o site está em `https://matrizsao-jose.vercel.app`, e é esse endereço que aparece no Open Graph, no sitemap e nos dados estruturados. Quando o domínio `matrizdesaojose.com.br` apontar para o site novo, troque de volta:
+
+```bash
+grep -rl "https://matrizsao-jose.vercel.app" tools src sitemap.xml robots.txt llms.txt | xargs sed -i '' "s#https://matrizsao-jose.vercel.app#https://matrizdesaojose.com.br#g" && cp llms.txt llm.txt && python3 tools/build_site.py
+```
+
 ## Dados estruturados
 
 JSON-LD em cada página: `CatholicChurch` (endereço, telefone, CNPJ, horários, pároco, `DonateAction` para o dízimo), `Event` da missa dominical, `VideoObject`, `BreadcrumbList` e `FAQPage` (página São José).
