@@ -1,0 +1,131 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "CatholicChurch",
+    "Organization"
+   ],
+   "@id": "https://matrizdesaojose.com.br/#paroquia",
+   "name": "Matriz de São José — Paróquia de São José",
+   "alternateName": [
+    "Paróquia de São José do Recife",
+    "Igreja Matriz de São José",
+    "Matriz de São José do Recife"
+   ],
+   "url": "https://matrizdesaojose.com.br/",
+   "logo": "https://matrizdesaojose.com.br/assets/img/icon-512.png",
+   "image": [
+    "https://matrizdesaojose.com.br/assets/img/og-matriz-sao-jose.jpg",
+    "https://matrizdesaojose.com.br/assets/img/nave-central.jpg"
+   ],
+   "description": "Paróquia católica dedicada a São José, no bairro de São José, centro do Recife (PE). Paróquia desde 1844.",
+   "foundingDate": "1844",
+   "taxID": "01.709.537/0001-98",
+   "telephone": "+55 81 3224-5801",
+   "email": "contato@matrizdesaojose.com.br",
+   "geo": {"@type": "GeoCoordinates", "latitude": -8.0723277, "longitude": -34.8822693},
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Vidal de Negreiros, 377",
+    "addressLocality": "Recife",
+    "addressRegion": "PE",
+    "postalCode": "50020-480",
+    "addressCountry": "BR"
+   },
+   "hasMap": "https://www.google.com/maps/search/?api=1&query=Matriz+de+S%C3%A3o+Jos%C3%A9+Rua+Vidal+de+Negreiros+377+Recife",
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     "opens": "11:30",
+     "closes": "13:30",
+     "description": "Missa às 12h; confissões das 11h30 às 13h30"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "Saturday",
+     "opens": "09:00",
+     "closes": "12:00",
+     "description": "Confissões das 9h às 12h (Missa em Latim suspensa durante a reforma)"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "Sunday",
+     "opens": "08:00",
+     "closes": "19:00",
+     "description": "Missas às 8h, 11h e 17h30; confissões das 8h às 12h e das 17h às 19h"
+    }
+   ],
+   "employee": {
+    "@type": "Person",
+    "name": "Pe. Davi de Melo",
+    "jobTitle": "Pároco",
+    "sameAs": [
+     "https://www.instagram.com/pe.davidemelo/",
+     "https://www.youtube.com/@davi_amelo"
+    ]
+   },
+   "sameAs": [
+    "https://www.instagram.com/matrizdesaojose/",
+    "https://www.youtube.com/@davi_amelo"
+   ],
+   "potentialAction": {
+    "@type": "DonateAction",
+    "name": "Seja um dizimista",
+    "target": "https://www.asaas.com/c/fw001yxxge7pea3w",
+    "recipient": {
+     "@id": "https://matrizdesaojose.com.br/#paroquia"
+    }
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://matrizdesaojose.com.br/#site",
+   "url": "https://matrizdesaojose.com.br/",
+   "name": "Matriz de São José",
+   "inLanguage": "pt-BR",
+   "publisher": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   }
+  },
+  {
+   "@type": "Event",
+   "name": "Santa Missa dominical na Matriz de São José",
+   "eventSchedule": {
+    "@type": "Schedule",
+    "byDay": "https://schema.org/Sunday",
+    "startTime": "08:00",
+    "repeatFrequency": "P1W",
+    "scheduleTimezone": "America/Recife"
+   },
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   },
+   "organizer": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   },
+   "description": "Missas aos domingos às 8h, 11h e 17h30."
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Quem foi São José — animação",
+   "description": "Animação em pintura a óleo que conta a vida de São José, padroeiro da Matriz de São José do Recife.",
+   "thumbnailUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.jpg",
+   "contentUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.mp4",
+   "uploadDate": "2026-11-10",
+   "duration": "PT1M7S",
+   "inLanguage": "pt-BR",
+   "publisher": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+# renders do filme (pesados, regeneráveis com filme/sao-jose/build.sh)
+filme/sao-jose/out/
+filme/sao-jose/sao-jose.mp4

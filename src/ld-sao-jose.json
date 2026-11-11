@@ -1,0 +1,97 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "name": "Quem foi São José",
+   "url": "https://matrizdesaojose.com.br/sao-jose/",
+   "inLanguage": "pt-BR",
+   "about": {
+    "@type": "Person",
+    "name": "São José",
+    "alternateName": [
+     "José de Nazaré",
+     "São José Operário"
+    ],
+    "description": "Esposo da Virgem Maria e pai adotivo de Jesus, carpinteiro de Nazaré, padroeiro da Igreja universal."
+   },
+   "publisher": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Início",
+     "item": "https://matrizdesaojose.com.br/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "São José",
+     "item": "https://matrizdesaojose.com.br/sao-jose/"
+    }
+   ]
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Quem foi São José — animação",
+   "description": "Animação em pintura a óleo que conta a vida de São José: o carpinteiro de Nazaré, os sonhos, Belém, a fuga para o Egito e Nazaré.",
+   "thumbnailUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.jpg",
+   "contentUrl": "https://matrizdesaojose.com.br/assets/video/sao-jose-filme.mp4",
+   "uploadDate": "2026-11-10",
+   "inLanguage": "pt-BR",
+   "publisher": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Quem foi São José?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "José de Nazaré foi o esposo da Virgem Maria e o pai adotivo de Jesus. Carpinteiro, descendente do rei Davi, acolheu Maria, deu nome a Jesus, protegeu a Sagrada Família na fuga para o Egito e criou o Menino em Nazaré."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Quando é o dia de São José?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A Solenidade de São José é celebrada em 19 de março. Em 1º de maio a Igreja celebra São José Operário."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Por que São José é padroeiro dos trabalhadores?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Porque sustentou a Sagrada Família com o trabalho de carpinteiro. Em 1955, Pio XII instituiu a memória de São José Operário em 1º de maio."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do que São José é padroeiro?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Da Igreja universal (Pio IX, 1870), das famílias, dos pais, dos trabalhadores e da boa morte. Também é padroeiro da Paróquia de São José, no Recife."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Onde fica a Matriz de São José no Recife?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Na Rua Vidal de Negreiros, 377, bairro de São José, centro do Recife (PE). Missas de segunda a sexta às 12h e aos domingos às 8h, 11h e 17h30."
+     }
+    }
+   ]
+  }
+ ]
+}

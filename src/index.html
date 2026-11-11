@@ -1,0 +1,278 @@
+  <!-- Abertura: a fachada da Matriz -->
+  <section class="hero">
+    <picture class="hero-photo">
+      <source media="(max-width:900px)" srcset="/assets/img/hero-matriz-m.jpg" width="960" height="1200">
+      <img src="/assets/img/hero-matriz.jpg" alt="A fachada da Matriz de São José ao entardecer: duas torres com sinos, a rosácea azul sobre as três portas e as palmeiras do adro" width="2400" height="1350" fetchpriority="high">
+    </picture>
+    <div class="hero-in">
+      <p class="hero-kicker">Paróquia de São José, Recife. Desde 1844.</p>
+      <h1>Matriz de São José</h1>
+      <p class="lede">No bairro de São José, centro do Recife, a casa do carpinteiro de Nazaré abre as portas todos os dias para a Missa, a Confissão e para quem procura um lugar para rezar.</p>
+      <div class="today-box">
+        <p class="today-day">Hoje, <span data-hoje>hoje</span></p>
+        <strong data-hoje-missas>Missa às 12h</strong>
+        <p class="today-next">Próxima missa: <b data-proxima>hoje, às 12h</b></p>
+        <div class="today-links">
+          <a class="btn btn-gold" href="#missas">{{i:clock}}Ver todos os horários</a>
+          <a class="btn btn-light" href="#visite">Como chegar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Missas -->
+  <section class="sec" id="missas">
+    <div class="wrap">
+      <div class="head">
+        <h2>Horários de missa e confissão</h2>
+        <p class="lede">As confissões acontecem antes e durante as missas. Chegue alguns minutos antes: a igreja fica aberta para a oração.</p>
+      </div>
+      <div class="days" role="list" aria-label="Horários da Matriz de São José">
+        <article class="day" data-day="domingo" role="listitem">
+          <header><h3>Domingo</h3><small>Hoje</small></header>
+          <div><span class="lbl">Missas</span><p class="times"><b>8h</b><b>11h</b><b>17h30</b></p></div>
+          <p class="conf"><span class="lbl">Confissões</span>8h às 12h e 17h às 19h</p>
+        </article>
+        <article class="day" data-day="semana" role="listitem">
+          <header><h3>Segunda a sexta</h3><small>Hoje</small></header>
+          <div><span class="lbl">Missa</span><p class="times"><b>12h</b></p></div>
+          <p class="conf"><span class="lbl">Confissões</span>11h30 às 13h30</p>
+        </article>
+        <article class="day" data-day="sabado" role="listitem">
+          <header><h3>Sábado</h3><small>Hoje</small></header>
+          <div><span class="lbl">Missa</span><p class="times off">Missa em Latim suspensa durante a reforma</p></div>
+          <p class="conf"><span class="lbl">Confissões</span>9h às 12h</p>
+        </article>
+      </div>
+      <p class="remind">{{i:clock}}<span>Ponha a missa de domingo na agenda do celular, com aviso uma hora antes:</span>
+        <a href="/assets/agenda/missa-domingo-0800.ics" download>8h</a><a href="/assets/agenda/missa-domingo-1100.ics" download>11h</a><a href="/assets/agenda/missa-domingo-1730.ics" download>17h30</a></p>
+      <div class="missal-foot">
+        <aside class="note">
+          <h3>A Matriz está em reforma</h3>
+          <p>Aos sábados, a Missa em Latim está suspensa temporariamente. As confissões continuam, das 9h às 12h. As demais missas seguem nos horários de sempre.</p>
+          <a class="more" href="https://drive.google.com/file/d/1Oa4m8mOYm9moAjNcewmuWGRhUWsKcy-6/view?usp=sharing" target="_blank" rel="noopener">Livro da Missa em Latim (PDF){{i:arrow}}</a>
+        </aside>
+        <aside class="note">
+          <h3>Secretaria paroquial</h3>
+          <p>Segunda a sexta, das 8h às 11h e das 14h30 às 17h. Para marcar intenção de missa, tirar dúvidas ou pedir documentos.</p>
+          <a class="more" href="{{wa:duvida}}" target="_blank" rel="noopener">Falar pelo WhatsApp (81) 3224-5801{{i:arrow}}</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desde 1844 -->
+  <section class="since" aria-label="A Matriz desde 1844">
+    <div class="wrap">
+      <figure><img src="/assets/img/matriz-desenho.jpg" alt="Desenho a bico de pena da fachada da Matriz de São José, com as palmeiras do adro" width="1370" height="1080" loading="lazy"></figure>
+      <div>
+        <p class="since-year">1844</p>
+        <h2>Duas torres, três portas e uma rosácea azul</h2>
+        <p class="lede">Paróquia desde 1844, a Matriz fica no bairro que leva o nome do seu padroeiro. Por fora, a fachada clara entre as palmeiras; por dentro, um altar em branco, ouro e azul que a reforma está devolvendo ao Recife.</p>
+        <a class="btn" href="/a-matriz/">Conhecer a história da Matriz{{i:arrow}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Voo pela Matriz -->
+  <section class="fly" id="voo" data-frames="114" data-src="/assets/scrub-hd/" data-src-mobile="/assets/scrub-m/" aria-label="Voo de drone pelo altar-mor da Matriz, do crucifixo até o arco dourado">
+    <div class="fly-stage">
+      <canvas aria-hidden="true"></canvas>
+      <div class="fly-intro"><span class="rubric">Entre na Matriz: role a página</span></div>
+      <div class="fly-meter" aria-hidden="true"><span class="on">i</span><span>ii</span><span>iii</span><span>iv</span></div>
+      <div class="fly-cap">
+        <div class="fly-step on"><span class="num">i.</span><h3>O altar-mor</h3><p>Ao fundo da nave, entre as imagens dos santos, o crucifixo sobre o vermelho. Tudo na Matriz aponta para cá.</p></div>
+        <div class="fly-step"><span class="num">ii.</span><h3>O Cristo no centro</h3><p>O nicho vermelho guarda o crucifixo, emoldurado por colunas brancas de capitéis dourados.</p></div>
+        <div class="fly-step"><span class="num">iii.</span><h3>Branco, ouro e azul</h3><p>Sobre o nicho, o coroamento em cúpula; atrás, o azul do retábulo que dá cor à igreja inteira.</p></div>
+        <div class="fly-step"><span class="num">iv.</span><h3>A talha dourada</h3><p>Volutas, folhagens e rosetas em ouro: um trabalho de paciência que a reforma está devolvendo ao Recife. <a href="/a-matriz/">Faça o tour completo da Matriz</a></p></div>
+      </div>
+      <div class="fly-load">Carregando o voo</div>
+    </div>
+  </section>
+
+  <!-- Pe. Davi -->
+  <section class="sec tint" id="pe-davi">
+    <div class="wrap priest">
+      <figure class="portrait">
+        <img src="/assets/img/pe-davi-homilia.jpg" alt="Pe. Davi de Melo pregando a homilia no ambão de mármore da Matriz" width="1024" height="1536" loading="lazy">
+        <figcaption><span>Pe. Davi de Melo, pároco</span><span>Homilia na Matriz</span></figcaption>
+      </figure>
+      <div>
+        <span class="rubric">O pároco e as homilias</span>
+        <h2>Pe. Davi de Melo</h2>
+        <p class="lede">É o pároco da Matriz de São José. Toda semana, as homilias das missas chegam ao YouTube: para rever, rezar de novo e mandar para quem não pôde vir.</p>
+        <blockquote class="quote">“A santidade é o extravasar do amor.”<cite>Pe. Davi de Melo, homilia de 1º de novembro</cite></blockquote>
+        {{HOMILIAS}}
+        <div class="reel-row">
+          <video src="/assets/video/reel-homilia.mp4" poster="/assets/video/reel-homilia.jpg" muted loop playsinline preload="none" data-inview aria-label="Trecho de homilia do Pe. Davi publicado no Instagram da Matriz"></video>
+          <div><h3>A homilia em um minuto</h3><p>Os trechos mais fortes das pregações saem em vídeo curto no Instagram da Matriz, para ver no caminho e compartilhar.</p><a class="more" href="https://www.instagram.com/matrizdesaojose/" target="_blank" rel="noopener">Ver no Instagram{{i:arrow}}</a></div>
+        </div>
+        <div class="priest-links">
+          <a class="btn btn-brown" href="https://www.youtube.com/@davi_amelo?sub_confirmation=1" target="_blank" rel="noopener">Inscrever-se no canal</a>
+          <a class="btn" href="https://www.youtube.com/@davi_amelo/videos" target="_blank" rel="noopener">Todas as homilias</a>
+          <a class="btn" href="https://www.instagram.com/pe.davidemelo/" target="_blank" rel="noopener">@pe.davidemelo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dízimo -->
+  <section class="sec give" id="dizimo">
+    <div class="wrap give-grid">
+      <div>
+        <span class="rubric">Dízimo e doações</span>
+        <h2>A Matriz é sustentada por quem reza nela</h2>
+        <p class="lede">O dízimo mantém as celebrações, a reforma de um templo do século XIX e as obras da paróquia. É um gesto de gratidão, no valor que cabe no seu coração.</p>
+        <blockquote>“Cada um dê conforme decidiu em seu coração, sem tristeza nem constrangimento, porque Deus ama quem dá com alegria.”<cite>2 Coríntios 9,7</cite></blockquote>
+        <div class="uses">
+          <div><b>A liturgia</b><span>Missas, sacramentos, a vida de oração</span></div>
+          <div><b>O templo</b><span>Conservação e reforma da Matriz</span></div>
+          <div><b>As obras</b><span>Pastorais e caridade no bairro</span></div>
+        </div>
+      </div>
+      <div class="offer">
+        <img src="/assets/img/monograma-sj-escuro.png" alt="" width="54" height="63" loading="lazy">
+        <h3>Seja dizimista da Matriz</h3>
+        <p>Contribuição mensal no cartão de crédito. Você escolhe o valor e confirma na página de pagamento da paróquia no Asaas.</p>
+        <a class="btn btn-gold" href="{{ASAAS}}" target="_blank" rel="noopener">{{i:lock}}Contribuir pelo Asaas</a>
+        <ul class="offer-facts">
+          <li>Valor livre, definido por você</li>
+          <li>Renovação mensal automática</li>
+          <li>Recebedor: Paróquia de São José, CNPJ 01.709.537/0001-98</li>
+        </ul>
+        <p class="fine">{{#DOACAO}}Prefere uma doação única? <a href="{{DOACAO}}" target="_blank" rel="noopener">Doe agora por Pix</a>.{{/DOACAO}}{{^DOACAO}}Prefere Pix, boleto ou uma doação única? <a href="{{wa:doacao}}" target="_blank" rel="noopener">Peça os dados à secretaria pelo WhatsApp</a>.{{/DOACAO}}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- São José -->
+  <section class="sec dark" id="sao-jose">
+    <div class="wrap film-grid">
+      <div>
+        <span class="rubric">Nosso padroeiro</span>
+        <h2>Quem foi São José?</h2>
+        <p class="lede">O carpinteiro de Nazaré não diz uma palavra nos Evangelhos, mas faz tudo o que Deus lhe pede. Uma animação de um minuto, pintada à espátula, para assistir com a família.</p>
+        <div class="feasts">
+          <div><b>19 de março</b><span>Solenidade de São José</span></div>
+          <div><b>1º de maio</b><span>São José Operário</span></div>
+          <div><b>1870</b><span>Padroeiro da Igreja</span></div>
+        </div>
+        <p style="margin-top:34px"><a class="btn btn-light" href="/sao-jose/">A vida de São José{{i:arrow}}</a></p>
+      </div>
+      <div class="player">
+        <video preload="none" playsinline poster="/assets/video/sao-jose-filme.jpg">
+          <source src="/assets/video/sao-jose-filme.mp4" type="video/mp4">
+          <track kind="subtitles" srclang="pt-BR" label="Português" src="/assets/video/sao-jose-filme.vtt">
+        </video>
+        <button class="play" aria-label="Assistir à animação sobre São José"><span>{{i:play}}Assistir (1 minuto)</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sacramentos -->
+  <section class="sec" id="sacramentos">
+    <div class="wrap">
+      <div class="head">
+        <h2>Batizar, casar, crismar</h2>
+        <p class="lede">Os pedidos começam na secretaria paroquial, pelo WhatsApp ou pessoalmente, de segunda a sexta, das 8h às 11h e das 14h30 às 17h.</p>
+      </div>
+      <div class="sacr">
+        <ul class="slist">
+          <li><a href="{{wa:casamento}}" target="_blank" rel="noopener"><div><h3>Casamento</h3><p>Abra o processo de habilitação matrimonial na Matriz. A secretaria informa os documentos e as datas.</p></div>{{i:arrow}}</a></li>
+          <li><a href="{{wa:catequese}}" target="_blank" rel="noopener"><div><h3>Catequese de jovens e adultos</h3><p>Batismo, Eucaristia e Crisma. A turma é anual e as inscrições abrem no fim do 1º semestre, com aviso nas missas e no Instagram.</p></div>{{i:arrow}}</a></li>
+          <li><a href="{{wa:batismo}}" target="_blank" rel="noopener"><div><h3>Certidão de batismo</h3><p>Peça a busca no livro de registros da paróquia. A resposta sai em até 2 dias úteis.</p></div>{{i:arrow}}</a></li>
+          <li><a href="{{wa:autenticar}}" target="_blank" rel="noopener"><div><h3>Conferir uma certidão</h3><p>Confirme com a secretaria a autenticidade de uma certidão emitida pela paróquia.</p></div>{{i:arrow}}</a></li>
+        </ul>
+        <figure>
+          <img src="/assets/img/nave-central.jpg" alt="A nave central da Matriz de São José, com o tapete vermelho até o altar-mor" width="1350" height="1800" loading="lazy">
+          <figcaption>A nave central, da porta ao altar-mor.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grupo jovem -->
+  <section class="sec youth" id="jovens">
+    <div class="wrap">
+      <div class="youth-top">
+        <figure class="youth-main">
+          <img src="/assets/img/jovens/encontro.jpg" alt="Dezenas de jovens reunidos entre os bancos da Matriz depois de um encontro, com o padre à frente" width="1600" height="1200" loading="lazy">
+        </figure>
+        <div class="youth-txt">
+          <h2>Grupo jovem</h2>
+          <p class="lede">Jovens que rezam, aprendem e servem juntos, e que fizeram da Matriz um lugar de amizade.</p>
+          <dl class="youth-list">
+            <div><dt>Virtus</dt><dd>O grupo dos rapazes.</dd></div>
+            <div><dt>Gratia</dt><dd>O grupo das moças.</dd></div>
+            <div><dt>Todos juntos</dt><dd>Encontros, palestras para jovens, projetos sociais e refeições servidas a pessoas em situação de vulnerabilidade.</dd></div>
+          </dl>
+          {{#GRUPO_JOVEM}}<a class="btn btn-brown" href="{{GRUPO_JOVEM}}" target="_blank" rel="noopener">{{i:wa}}Entrar na comunidade no WhatsApp</a>{{/GRUPO_JOVEM}}
+        </div>
+      </div>
+      <div class="youth-row">
+        <figure><img src="/assets/img/jovens/altar.jpg" alt="Jovens do grupo com o padre diante do altar-mor da Matriz" width="1100" height="733" loading="lazy"><figcaption>Diante do altar-mor.</figcaption></figure>
+        <figure><img src="/assets/img/jovens/servico.jpg" alt="Voluntários do grupo jovem, de touca, na cozinha onde preparam refeições" width="1100" height="733" loading="lazy"><figcaption>Preparando refeições para quem precisa.</figcaption></figure>
+        <figure><img src="/assets/img/jovens/palestra.jpg" alt="Jovens reunidos em uma sala depois de uma palestra" width="1100" height="733" loading="lazy"><figcaption>Noite de palestra.</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Primeira vez + pedido de oração -->
+  <section class="sec tint" id="primeira-vez">
+    <div class="wrap first">
+      <div>
+        <h2>Primeira vez na Matriz?</h2>
+        <p class="lede">Seja bem-vindo. Quatro coisas que ajudam a saber antes de sair de casa.</p>
+        <dl class="tips">
+          <div><dt>Chegue 10 minutos antes</dt><dd>A missa costuma lotar. Quem chega cedo encontra lugar para sentar e tempo para rezar em silêncio.</dd></div>
+          <div><dt>Estacionamento</dt><dd>A Matriz tem estacionamento próprio, na parte de trás da igreja.</dd></div>
+          <div><dt>Rampa de acesso</dt><dd>A entrada com rampa também fica na parte de trás, para cadeira de rodas e carrinho de bebê.</dd></div>
+          <div><dt>Banheiros</dt><dd>Masculino, feminino e um banheiro família, para quem vem com criança.</dd></div>
+        </dl>
+      </div>
+      <form class="pray" id="pedido">
+        <h3>Peça uma oração</h3>
+        <p>Escreva sua intenção. Ela segue pelo WhatsApp para a secretaria da Matriz.</p>
+        <fieldset>
+          <legend>O que você quer pedir?</legend>
+          <label><input type="radio" name="tipo" value="oracao" checked><span>Pedido de oração</span></label>
+          <label><input type="radio" name="tipo" value="missa"><span>Intenção de missa</span></label>
+        </fieldset>
+        <label for="pedido-texto">Sua intenção</label>
+        <textarea id="pedido-texto" name="texto" rows="4" required placeholder="Pela saúde de minha mãe, Maria…"></textarea>
+        <label for="pedido-nome">Seu nome (se quiser)</label>
+        <input id="pedido-nome" name="nome" type="text" autocomplete="name">
+        <button class="btn btn-brown" type="submit">{{i:wa}}Enviar pelo WhatsApp</button>
+        <p class="fine">Nada fica guardado no site: a mensagem abre no seu WhatsApp e é você quem envia.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Visite -->
+  <section class="visit" id="visite">
+    <div class="visit-info">
+      <span class="rubric">Visite a Matriz</span>
+      <address><span style="white-space:nowrap">Rua Vidal de Negreiros, 377</span><br>São José, Recife</address>
+      <p class="lede">No coração do bairro de São José, perto do Mercado de São José. CEP 50020-480. Arquidiocese de Olinda e Recife.</p>
+      <ul class="clist">
+        <li><a href="https://wa.me/558132245801" target="_blank" rel="noopener"><span>WhatsApp</span><b>(81) 3224-5801</b></a></li>
+        <li><a href="tel:+558132245801"><span>Telefone</span><b>(81) 3224-5801</b></a></li>
+        <li><a href="mailto:contato@matrizdesaojose.com.br"><span>E-mail</span><b>contato@matrizdesaojose.com.br</b></a></li>
+      </ul>
+      <div class="routes">
+        <h3>Como chegar</h3>
+        <p>Toque e o aplicativo abre com a rota até a porta da Matriz.</p>
+        <div class="routes-btns">
+          <a class="btn btn-brown" href="{{WAZE}}" target="_blank" rel="noopener">{{i:pin}}Abrir no Waze</a>
+          <a class="btn" href="{{GMAPS}}" target="_blank" rel="noopener">Google Maps</a>
+          <a class="btn" href="{{AMAPS}}" target="_blank" rel="noopener">Mapas da Apple</a>
+          <a class="btn" href="{{UBER}}" target="_blank" rel="noopener">Pedir um Uber</a>
+          <button class="btn" type="button" data-copy="Rua Vidal de Negreiros, 377, São José, Recife - PE">Copiar o endereço</button>
+        </div>
+        <p class="routes-note">Vai de 99 ou de táxi? Copie o endereço e cole no aplicativo. A Matriz tem estacionamento próprio, na parte de trás.</p>
+      </div>
+    </div>
+    <div class="visit-map">
+      <iframe title="Mapa: Matriz de São José, Rua Vidal de Negreiros, 377, Recife" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Matriz+de+S%C3%A3o+Jos%C3%A9,+Rua+Vidal+de+Negreiros,+377,+Recife+-+PE&amp;output=embed"></iframe>
+    </div>
+  </section>

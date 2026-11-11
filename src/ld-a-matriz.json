@@ -1,0 +1,43 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebPage",
+   "name": "A Matriz de São José",
+   "url": "https://matrizdesaojose.com.br/a-matriz/",
+   "inLanguage": "pt-BR",
+   "about": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   },
+   "primaryImageOfPage": "https://matrizdesaojose.com.br/assets/img/matriz-fachada-dia.jpg"
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Início",
+     "item": "https://matrizdesaojose.com.br/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "A Matriz",
+     "item": "https://matrizdesaojose.com.br/a-matriz/"
+    }
+   ]
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Tour de drone pelo interior da Matriz de São José",
+   "description": "Imagens de drone do altar-mor, do teto com a pomba do Espírito Santo, do resplendor, das galerias e dos painéis da Matriz de São José, Recife.",
+   "thumbnailUrl": "https://matrizdesaojose.com.br/assets/video/altar.jpg",
+   "contentUrl": "https://matrizdesaojose.com.br/assets/video/altar.mp4",
+   "uploadDate": "2026-11-10",
+   "publisher": {
+    "@id": "https://matrizdesaojose.com.br/#paroquia"
+   }
+  }
+ ]
+}
