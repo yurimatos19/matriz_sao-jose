@@ -169,7 +169,6 @@ def homilias():
     H = json.load(open(os.path.join(R, 'assets/data/homilias.json')))['homilias']
     f = H[0]
     feat = f'''<div class="feature reveal">
-          <span class="rubric">Homilia mais recente</span>
           <button class="yt" data-id="{f['id']}" aria-label="Assistir: {html.escape(titulo(f['titulo']))}">
             <img src="https://i.ytimg.com/vi/{f['id']}/maxresdefault.jpg" alt="" loading="lazy" width="1280" height="720">
             <span class="play">{I('play')}Assistir à homilia</span>

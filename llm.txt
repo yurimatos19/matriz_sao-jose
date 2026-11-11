@@ -40,7 +40,7 @@ Este arquivo resume, para assistentes de IA e mecanismos de busca, as informaç�
 
 - Pe. Davi de Melo é o pároco da Matriz de São José. As homilias das missas da Matriz são publicadas toda semana no canal [Pe. Davi Melo no YouTube](https://www.youtube.com/@davi_amelo).
 - Instagram do pároco: https://www.instagram.com/pe.davidemelo/
-- A página inicial do site mostra a homilia mais recente e as anteriores.
+- A página inicial do site mostra homilias do Pe. Davi, com link para o canal no YouTube.
 - [Livro da Missa em Latim (PDF)](https://drive.google.com/file/d/1Oa4m8mOYm9moAjNcewmuWGRhUWsKcy-6/view?usp=sharing)
 
 ## Páginas do site
