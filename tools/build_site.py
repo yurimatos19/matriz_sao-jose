@@ -176,8 +176,8 @@ def homilias():
           <h3>{html.escape(titulo(f['titulo']))}</h3>
           <div class="meta">{data_br(f['data'])}, no YouTube</div>
         </div>'''
-    items = ''.join(f'''<li><a href="https://www.youtube.com/watch?v={h['id']}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/{h['id']}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="t">{html.escape(titulo(h['titulo']))}</span><time datetime="{h['data']}">{data_br(h['data'])}</time></a></li>''' for i, h in enumerate(H[1:7]))
-    return feat + f'\n        <ul class="hlist">{items}</ul>'
+    items = ''.join(f'''<li><a href="https://www.youtube.com/watch?v={h['id']}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/{h['id']}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180"><span class="t">{html.escape(titulo(h['titulo']))}</span><time datetime="{h['data']}">{data_br(h['data'])}</time></a></li>''' for i, h in enumerate(H[:6]))
+    return f'<ul class="hlist">{items}</ul>'
 
 PAGES = [
   ('index', '/', {'title': 'Matriz de São José · Recife – PE · desde 1844',
